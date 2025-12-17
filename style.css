@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f2f2f2;
+  color: #222;
+}
+
+.cv-container {
+  max-width: 900px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ff7700;
+}
+
+.header h2 {
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.header p {
+  margin-top: 5px;
+  color: #555;
+}
+
+.infos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  border-left: 4px solid #ff7700;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  list-style: none;
+  background: #ff7700;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.project {
+  margin-bottom: 12px;
+}
+
+.project h4 {
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 30px;
+}
+.download-btn {
+  text-align: center;
+  margin: 20px 0 30px;
+}
+
+.download-btn a {
+  background: #ff7700;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.download-btn a:hover {
+  background: #e06600;
+}
